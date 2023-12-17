@@ -24,7 +24,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-white shadow">
       <div class="container-fluid py-2">
-        <a class="navbar-brand" href="/">Car Garage</a>
+        <a class="navbar-brand" href="/">BuyCar24</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -44,23 +44,20 @@
             <li class="nav-item">
               <a class="nav-link" href="/cars.html">Products</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
-            </li>
 
             <li class="nav-item">
               <a class="nav-link" href="/services.html">Services</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="/login.html">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/register.html">Register</a>
+              <a class="nav-link" href="/about.html">About</a>
             </li>
           </ul>
 
           <!-- Search -->
-          <div class="d-flex">
+          <div class="d-flex align-items-center">
+            <a class="nav-link me-2" href="/login.html">Login</a>
+            <a class="nav-link me-2" href="/register.html">Register</a>
             <input
               class="form-control me-2"
               type="search"
@@ -86,33 +83,8 @@
         </p>
       </div>
     </header>
-    <!-- <section>
-      <div class="main" id="Home">
-        <div class="main_content">
-          <div class="main_text">
-            <h1>Car<br /><span>Collection</span></h1>
-            <p>
-            </p>
-          </div>
-          <div class="main_image">
-            <img src="./assets/images/bg2.jpg" class="img-fluid" />
-          </div>
-        </div>
 
-        <div class="social_icon">
-          <i class="fa-brands fa-facebook-f"></i><br />
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-linkedin-in"></i>
-        </div>
-        <div class="button">
-          <a href="#">BOOKING NOW</a>
-          <i class="fa-solid fa-chevron-right"></i>
-        </div>
-      </div>
-    </section> -->
-
-    <!--Products-->
+    <!-- Cars -->
     <div class="container">
       <div class="" id="Products">
         <h1 class="text-center mb-4">Car In-Stock</h1>
@@ -126,42 +98,17 @@
       </div>
     </div>
 
-    <!--About-->
-    <div class="container">
-      <div class="about" id="About">
-        <h1 class="text-center">About Car</h1>
-
-        <div
-          class="about_main d-flex gap-2 align-items-center justify-content-center"
-        >
-          <div class="about_image">
-            <div class="about_small_image">
-              <img src="./assets/images/STO3.jpg" onclick="functio(this)" />
-              <img src="./assets/images/STO1.jpg" onclick="functio(this)" />
-              <img src="./assets/images/STO2.jpg" onclick="functio(this)" />
-              <img src="./assets/images/STO4.jpg" onclick="functio(this)" />
-            </div>
-
-            <div class="image_contaner">
-              <img src="./assets/images/STO.jpg" id="imagebox" />
-            </div>
-          </div>
-
-          <div class="about_text">
-            <p>
-              A super-sports car created with a singular purpose, the Huracán
-              STO delivers all the feel and technology of a genuine race car in
-              a road-legal model. Lamborghini’s years-long motorsport know-how,
-              intensified by a winning heritage, is concentrated in the new
-              Huracán STO. Its extreme aerodynamics, track-honed handling
-              dynamics, lightweight contents and the highest-performing V10
-              engine to date come together, ready to trigger all the emotions of
-              the racetrack in your everyday life.
-            </p>
-          </div>
-        </div>
-
-        <a href="#" class="about_btn">Shop Now</a>
+    <!--Promotion Discount -->
+    <div class="container-fluid bg-light my-5 py-5">
+      <div class="container">
+        <h2 class="display-4 fw-bold text-primary">
+          Hot Deals & Exclusive Offers!
+        </h2>
+        <p class="lead py-3">
+          Save big on your dream car with our limited-time promotions and
+          discounts. Browse our selection now and find the perfect deal for you!
+        </p>
+        <a href="/cars.html" class="btn btn-primary">Shop Now</a>
       </div>
     </div>
 
@@ -169,7 +116,7 @@
     <div class="container" id="Review">
       <h1 class="text-center mb-4">Customer's Feedbacks</h1>
       <div
-        class="row row-cols-md-3 g-4 align-items-center"
+        class="row row-cols-md-3 g-4 align-items-start"
         id="feedbacks-container"
       >
         <!-- Feedbacks will inject here  -->
@@ -226,10 +173,10 @@
                 ><i class="fa-solid fa-house"></i>RUPP/PP/CAMBODIA</a
               >
               <a href="#" class="text-black"
-                ><i class="fa-solid fa-phone"></i>+855 99304367</a
+                ><i class="fa-solid fa-phone"></i>+855 23222333</a
               >
               <a href="#" class="text-black"
-                ><i class="fa-solid fa-envelope"></i>Nak168@gmail.com</a
+                ><i class="fa-solid fa-envelope"></i>support@buycar24.com</a
               >
             </div>
           </div>
@@ -327,11 +274,11 @@
         const element = document.createElement("div");
         // element.setAttribute("class", "col-sm");
         element.innerHTML = `
-                  <div class="col shadow p-4 rounded">
+          <div class="col shadow p-4 rounded">
             <div class="d-flex gap-3 mb-4">
               <img
                 src="${feedback.photo_url}"
-                class="rounded-circle"
+                class="rounded-circle object-fit-cover"
                 width="60"
                 height="60"
               />
@@ -342,7 +289,7 @@
                 <i class="fa-solid text-warning fa-star"></i>
                 <i class="fa-solid text-warning fa-star"></i>
                 <i class="fa-solid text-warning fa-star"></i>
-                <i class="fa-solid text-warning fa-star-half-stroke"></i>
+                <i class="fa-solid text-warning fa-star"></i>
               </div>
             </div>
 

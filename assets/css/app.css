@@ -5,11 +5,11 @@
   font-family: sans-serif;
 }
 
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 15px;
 }
 
@@ -21,7 +21,7 @@
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background: linear-gradient(to top, #c72092, #6c14d0);
-} */
+}
 
 section {
   width: 100%;
