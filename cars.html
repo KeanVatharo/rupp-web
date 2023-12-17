@@ -273,7 +273,10 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                       </div>
-                      <p class="fw-bold mt-2">$${car.price}</p>
+                      <p class="fw-bold mt-2">${car.price.toLocaleString(
+                        "en-US",
+                        { style: "currency", currency: "USD" }
+                      )}</p>
                       <a href="./add-to-cart.html" class="btn btn-primary">Add To Cart</a>
                     </div>
                   </div>

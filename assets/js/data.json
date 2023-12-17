@@ -4,7 +4,7 @@
       "brand": "BMW",
       "model": "M5 CS",
       "description": "The BMW M5 CS is an exceptional high-performance model with a unique combination of power, driving dynamics, exclusivity and emotional design. As a four-door sedan, it can be used in all situations and is at the same time predestined for fast laps on racetracks like the Nürburgring Nordschleife, on which the BMW M engineers did the fine tuning for their suspension set-up. Maximum grip is provided by the standard, high-performance Pirelli P Zero Corsa tyres, 275/35 at the front and 285/35 at the rear, which have been specially matched to the BMW M5 CS.",
-      "price": "142995",
+      "price": 142995,
       "photo_url": "./assets/images/BMW%20M5%20CS%202022.jpg"
     },
 
@@ -12,21 +12,21 @@
       "brand": "Bugatti",
       "model": "Chiron Super Sport",
       "description": "A hypercar known for its extreme speed and luxurious interior. It is the successor to the Bugatti Chiron, and it is powered by a 1600-horsepower quad-turbocharged W16 engine. The Chiron Super Sport has a top speed of over 300 mph (483 km/h), making it one of the fastest cars in the world.",
-      "price": 142995,
+      "price": 192985,
       "photo_url": "./assets/images/Bugatti%20Chiron%20Super%20Sport.jpg"
     },
     {
       "brand": "Ferrari Enzo",
       "model": "Enzo",
       "description": "A limited-production high-performance sports car known for its racing heritage. It was named after Enzo Ferrari, the founder of Ferrari, and it was only produced from 2002 to 2005. The Enzo has a 660-horsepower V12 engine and a top speed of 217 mph (350 km/h).",
-      "price": "142995",
+      "price": 272995,
       "photo_url": "./assets/images/Ferrari Enzo.jpg"
     },
     {
       "brand": "Nissan",
       "model": "GT-R(R35)",
       "description": "A high-performance sports car known for its all-wheel drive and tunable performance. It has been in production since 2007 and is one of the most popular sports cars in the world. The GT-R(R35) has a 565-horsepower twin-turbocharged V6 engine and a top speed of 205 mph (332 km/h).",
-      "price": "142995",
+      "price": 162995,
       "photo_url": "./assets/images/The%20Nissan%20GT-R(R35).jpg"
     },
     {
