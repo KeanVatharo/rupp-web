@@ -79,64 +79,62 @@
       </div>
     </nav>
 
-    <main class="container">
-      <div class="row">
-        <div class="col-md-6 mb-4">
-          <h2 class="mb-3">Get in touch</h2>
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Your Name</label>
-
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                placeholder="Enter your name"
-              />
-            </div>
-
-            <div class="mb-3">
-              <label for="email" class="form-label">Email Address</label>
-
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="Enter your email"
-              />
-            </div>
-
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-
-              <textarea
-                class="form-control"
-                id="message"
-                rows="3"
-                placeholder="Write your message"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
-          </form>
-        </div>
+    <!-- Login Form -->
+    <div class="container">
+      <div class="row justify-content-center">
         <div class="col-md-6">
-          <p>
-            We'd love to hear from you! Don't hesitate to reach out if you have
-            any questions or feedback.
-          </p>
-          <ul class="list-unstyled">
-            <li>
-              <i class="bi bi-geo-alt-fill me-2"></i>St.372, Boeung Keng Kong,
-              Phnom Penh.
-            </li>
-            <li><i class="bi bi-phone-fill me-2"></i> +855 23222333</li>
-            <li>
-              <i class="bi bi-envelope-fill me-2"></i>support@buycar24.com
-            </li>
-          </ul>
+          <div class="card">
+            <div class="card-header">
+              <h3>Login</h3>
+            </div>
+            <div class="card-body">
+              <form action="/login" method="post">
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    name="password"
+                    placeholder="Enter password"
+                  />
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="rememberMe"
+                    name="remember_me"
+                  />
+                  <label class="form-check-label" for="rememberMe"
+                    >Remember me</label
+                  >
+                </div>
+                <a href="/" class="btn btn-primary">Sign In</a>
+                <a href="/forgot-password.html" class="link-secondary"
+                  >Forgot password?</a
+                >
+              </form>
+            </div>
+
+            <div class="card-footer">
+              Haven't have an account?
+              <a href="/register.html">Register an account</a>
+            </div>
+          </div>
         </div>
       </div>
-    </main>
+    </div>
 
     <!--Footer-->
     <footer class="bg-light mt-5 p-5">
